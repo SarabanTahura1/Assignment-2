@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --black: #131313;
+    --banner-bg: rgba(255, 144, 14, 0.1);
+    --btn-bg: #FF900E;
+    --paragraph-color: #727272;
+
+}
+
+/* nav section start */
+header {
+
+    height: 1180px;
+    background-color: var(--banner-bg);
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    width: 302px;
+    height: 53px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-weight: 700;
+
+
+
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 70px;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+/* nav style end here*/
+
+.brand-description {
+    text-align: center;
+
+
+}
+
+.header-heading {
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: var(--black);
+}
+
+.common-paragraph {
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.common-btn {
+    background-color: var(--btn-bg);
+    border: 0;
+    color: #FFFFFF;
+    padding: 15px 30px;
+
+    margin-bottom: 30px;
+    font-weight: 350;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.banner img {
+    margin: 0 130px 180px 100px;
+    width: 85%;
+    height: 700px;
+
+}
+
+
+/* header style end here */
+.features {
+    height:500px;
+    width: 100%;
+}
+
+.features-container {
+    display: flex;
+
+}
+
+.features-img {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+.features-img-container {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 210px;
+
+
+}
+
+.team-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.features-text-container {
+    position: absolute;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 670px;
+    text-align: left;
+
+}
+
+.features-text {
+    width: 400px;
+    height: 200px;
+}
+
+.features-paragraph {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--paragraph-color);
+    margin-bottom: 25px;
+}
+
+b {
+    color: var(--black);
+
+}
+
+span {
+    color: var(--btn-bg);
+}
+/* features style end here */
+article{
+    display: flex;
+    margin-left: 185px;
+    height: 780px;
+   
+   
+}
+.article-left-flex{
+    display: flex;
+   
+}
+.div-design{
+   background-color: var(--btn-bg);
+   margin-top: 3px;
+   height: 50px;
+   width: 3px;
+   border-radius: 2px;
+}
+.article-heading{
+    font-weight: 900;
+font-size: 15px;
+margin-left: 5px;
+margin-bottom: 15px;
+}
+.common-heading{
+    color: var(--black);
+    font-weight: 600;
+font-size: 15px;
+margin-bottom: 7px;
+}
+.advantage-list{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 420px;
+    height: 100px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.article-right img{
+    height: 580px; 
+  padding-left: 130px;
+}
+.article-btn{
+    padding-left: 130px;
+    margin-top: 10px;
+   
+}
+.article-btn-h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+/* article style end here */
+.mid-section{
+    height: 400px;
+}
+.count-heading{
+    text-align: left;
+    margin-left: 180px;
+   
+}
+.count-h1{
+    font-weight: 700;
+font-size:30px;
+margin-bottom: 15px;
+}
+
+.count-flex{
+    display: flex;
+    margin-left: 200px;
+  gap: 70px;
+  margin-top: 70px;
+}
+.count-icon{
+    border: 1px solid var(--btn-bg);
+    padding:28px 20px 20px 20px ;
+    text-align: center;
+    width: 150px;
+    height: 120px;
+}
+.count-icon {
+    transition-property: width, height;
+  }
+  .count-icon:hover {
+    background-color: yellow;
+   width: 180px;
+    height: 150px;
+}
+/* count style end here */
+.sponsor{
+   height: 500px;
+  text-align: center;
+}
+.sponsor-heading{
+    font-weight: 900;
+font-size: 40px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.website-name> ul{
+    filter: grayscale(1);
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    justify-content: space-around;
+    list-style: none;
+   
+}
+.footer-paragraph{
+    color: var(--paragraph-color);
+    margin-top: 80px;
+   width: 1140px;
+   height: 40px;
+   text-align: center;
+   margin-left: 130px;
+  padding-top: 30px;
+    background-color:  #FFF4E7;
+}
