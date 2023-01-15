@@ -3,6 +3,10 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+body {
+   
+    overflow-x: hidden; 
+  }
 
 :root {
     --black: #131313;
@@ -76,7 +80,7 @@ nav li {
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 30px;
-   
+
 }
 
 .common-btn {
@@ -92,30 +96,28 @@ nav li {
 }
 
 .banner img {
-    margin: 0 130px 180px 100px;
-    width: 85%;
+
+    width: 90%;
     height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 
 /* header style end here */
 .features {
-    height:500px;
+    height: 500px;
     width: 100%;
 }
 
- .features-container {
+.features-container {
     display: flex;
 
 }
 
-/* .features-img {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: space-evenly;
-    row-gap: 30px;
-} */
+
 
 .features-img-container {
     width: 60%;
@@ -161,306 +163,406 @@ b {
 span {
     color: var(--btn-bg);
 }
+
 /* features style end here */
-article{
+article {
     display: flex;
     margin-left: 185px;
     height: 780px;
-   
-   
+
+
 }
-.article-left-flex{
+
+.article-left-flex {
     display: flex;
-   
+
 }
-.div-design{
-   background-color: var(--btn-bg);
-   margin-top: 3px;
-   height: 50px;
-   width: 3px;
-   border-radius: 2px;
+
+.div-design {
+    background-color: var(--btn-bg);
+    margin-top: 3px;
+    height: 50px;
+    width: 3px;
+    border-radius: 2px;
 }
-.article-heading{
+
+.article-heading {
     font-weight: 900;
-font-size: 15px;
-margin-left: 5px;
-margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 15px;
 }
-.common-heading{
+
+.common-heading {
     color: var(--black);
     font-weight: 600;
-font-size: 15px;
-margin-bottom: 7px;
+    font-size: 15px;
+    margin-bottom: 7px;
 }
-.advantage-list{
+
+.advantage-list {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-bottom: 20px;
     width: 420px;
     height: 100px;
-  padding-left: 25px;
-  padding-top: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
 }
-.article-right img{
-    height: 580px; 
-  padding-left: 130px;
+
+.article-right img {
+    height: 580px;
+    padding-left: 130px;
 }
-.article-btn{
+
+.article-btn {
     padding-left: 130px;
     margin-top: 10px;
-   
+
 }
-.article-btn-h1{
+
+.article-btn-h1 {
     text-align: center;
     font-weight: 700;
     font-size: 30px;
 }
+
 /* article style end here */
-.mid-section{
+.mid-section {
     height: 400px;
 }
-.count-heading{
+
+.count-heading {
     text-align: left;
     margin-left: 180px;
-   
-}
-.count-h1{
-    font-weight: 700;
-font-size:30px;
-margin-bottom: 15px;
+
 }
 
-.count-flex{
+.count-h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.count-flex {
     display: flex;
     margin-left: 200px;
-  gap: 70px;
-  margin-top: 70px;
+    gap: 70px;
+    margin-top: 70px;
 }
-.count-icon{
+
+.count-icon {
     border: 1px solid var(--btn-bg);
-    padding:28px 20px 20px 20px ;
+    padding: 28px 20px 20px 20px;
     text-align: center;
     width: 150px;
     height: 120px;
 }
+
 .count-icon {
     transition-property: width, height;
-  }
-  .count-icon:hover {
+}
+
+.count-icon:hover {
     background-color: yellow;
-   width: 180px;
+    width: 180px;
     height: 150px;
 }
+
 /* count style end here */
 
-.review-section > h1{
-margin-left: 33%;
-margin-bottom: 30px;
+.review-section>h1 {
+    margin-left: 33%;
+    margin-bottom: 30px;
 }
-.review{
+
+.review {
     display: grid;
-    
-height: 100%;
-margin: 50px ;
+
+    height: 100%;
+    margin: 50px;
 
     place-items: center;
     background: #17a2b8;
-    
-  }
-.client-review{
+
+}
+
+.client-review {
     max-width: 1200px;
-   
+
     padding: 40px 40px;
     display: flex;
- align-items: center;
- gap: 30px;
-  
-  }
-  .client-review .box{
+    align-items: center;
+    gap: 30px;
+
+}
+
+.client-review .box {
     background: #fff;
     width: calc(33% - 10px);
     padding: 25px;
     border-radius: 3px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
-  }
-  .client-review .box i.quote{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.client-review .box i.quote {
     font-size: 20px;
     color: #17a2b8;
-  }
-  .client-review .box .content{
+}
+
+.client-review .box .content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-  }
-  .box .info .name{
+}
+
+.box .info .name {
     font-weight: 600;
     font-size: 17px;
-  }
-  .box .info .job{
+}
+
+.box .info .job {
     font-size: 16px;
     font-weight: 500;
     color: #17a2b8;
-  }
-  .box .info .stars{
+}
+
+.box .info .stars {
     margin-top: 2px;
-  }
-  .box .info .stars i{
+}
+
+.box .info .stars i {
     color: #17a2b8;
-  }
-  .box .content .client-image{
+}
+
+.box .content .client-image {
     height: 75px;
     width: 75px;
     padding: 3px;
-  
+
     background: #17a2b8;
     border-radius: 50%;
-  }
-  .content .client-image img{
+}
+
+.content .client-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #fff;
-  }
+}
 
-  /* review style end here */
-.sponsor{
-   height: 500px;
-  text-align: center;
+/* review style end here */
+.sponsor {
+    height: 500px;
+    text-align: center;
 }
-.sponsor-heading{
+
+.sponsor-heading {
     font-weight: 900;
-font-size: 40px;
-margin-top: 30px;
-margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
-.website-name> ul{
+
+.website-name>ul {
     filter: grayscale(1);
     display: flex;
     margin-left: 60px;
     margin-right: 60px;
- justify-content: space-around; 
+    justify-content: space-around;
     list-style: none;
-   
+
 }
-.footer-paragraph{
+
+.footer-paragraph {
     color: var(--paragraph-color);
     margin-top: 80px;
-   width: 1140px;
-   height: 40px;
-   text-align: center;
-   margin-left: 130px;
-  padding-top: 30px;
-    background-color:  #FFF4E7;
-} 
+    width: 1140px;
+    height: 40px;
+    text-align: center;
+    margin-left: 130px;
+    padding-top: 30px;
+    background-color: #FFF4E7;
+}
 
 /* footer style end here  */
 /* -----------------------------
 responsive style start from here
 ---------------------------------*/
-@media only screen and (max-width:576px){
-    header{
+@media only screen and (max-width:576px) {
+    header {
         height: 1300px;
         background: cover;
     }
-     nav ul{
-     flex-direction: column;
-     margin-top: 10px;
-     
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+
     }
-    
-    .nav-title{
-  margin-top: 10px;
-  margin-left: 10px;
+
+    .nav-title {
+        margin-top: 10px;
+        margin-left: 10px;
     }
-    .common-paragraph{
+
+    .common-paragraph {
         padding: 20px;
     }
-    .banner img{
-   margin-left: 28px;
-   margin-bottom: 200px;
+
+    .banner img {
+        margin-left: 28px;
+        margin-bottom: 200px;
     }
+
     /* nav reponsive done */
-   .features{
-  height: 1400px;
- 
-
- }
- .features-container{
-    flex-direction: column;
- }
- .features-img-container {
- 
-    margin-left: 30px;
+    .features {
+        height: 1400px;
 
 
-}
-.features-new-paragraph{
-    padding-left: 0;
-}
- .features-text-container{
-margin-left: 20px;
-margin-top: 1000px;
- }
-     /* features reponsive done */
-     article{
+    }
+
+    .features-container {
+        flex-direction: column;
+    }
+
+    .features-img-container {
+
+        margin-left: 30px;
+
+
+    }
+
+    .features-new-paragraph {
+        padding-left: 0;
+    }
+
+    .features-text-container {
+        margin-left: 20px;
+        margin-top: 1000px;
+    }
+
+    /* features reponsive done */
+    article {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-left: 10px;
-      
-    height: 1700px;
-    width: 100%;
-    
-     }
-     .article-heading{
+
+        height: 1700px;
+        width: 100%;
+
+    }
+
+    .article-heading {
         margin-left: 18px;
-     }
-     .advantage-list{
+    }
+
+    .advantage-list {
         width: 350px;
-        height: 150px;   
-     }
-     .article-paragraph{
-font-size: 10px;
-     }
-     .article-right img{
-    padding-left: 10px;
-    width: 90%;
-     }
-     
-.article-btn{
-    padding-left: 10px;
-}
-/* article reponsive done */
-.mid-section{
-    height: 1500px;
-}
-.count-heading{
- 
-    margin-left: 20px;
-   
-}
-.count-paragraph{
-    padding-left: 0;
-}
-.count-flex{
-   
-    flex-direction: column;
-    margin-left: 20px;
+        height: 150px;
+    }
 
-}
+    .article-paragraph {
+        font-size: 10px;
+    }
 
-/* mid reponsive done */
+    .article-right img {
+        padding-left: 10px;
+        width: 90%;
+    }
 
-.review{
-    display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
+    .article-btn {
+        padding-left: 10px;
+    }
+
+    /* article reponsive done */
+    .mid-section {
+        height: 1200px;
+    }
+
+    .count-heading {
+
+        margin-left: 20px;
+
+    }
+
+    .count-paragraph {
+        padding-left: 0;
+    }
+
+    .count-flex {
+
+        flex-direction: column;
+        margin-left: 20px;
+
+    }
+
+    /* mid reponsive done */
+
+    .review {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 85%;
+
+        margin-left: 25px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-right: 10px;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        margin-bottom: 150px;
+
+    }
+
+    .review-section>h1 {
 
 
-    
-   
-       
+        margin-left: 30px;
+    }
+
+    .client-review {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .client-review .box {
+        width: 100%;
+        margin-left: 100px;
+
+
+    }
+
+    /* review reponsive done */
+    .sponsor {
+        height: 1300px;
+    }
+
+    .website-name>ul {
+        flex-direction: column;
+
+    }
+
+    .website-name>ul>li>img {
+        margin-top: 15px;
+        width: 100px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .footer-paragraph {
+        
+        text-align: start;
+        font-size: 12px;
+        padding-left: 20px;
+      margin-left: -5px;
+    }
+
+
+
 }
