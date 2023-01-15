@@ -502,6 +502,10 @@ responsive style start from here
     }
 
     /* mid reponsive done */
+    .container{
+        height: auto;
+        width: auto;
+    }
 
     .review {
         display: grid;
@@ -562,7 +566,7 @@ responsive style start from here
         padding-left: 20px;
       margin-left: -5px;
     }
-
+/* footer responsive done */
 
 
 }
